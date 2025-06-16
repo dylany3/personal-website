@@ -1,53 +1,61 @@
-/* General structure and spacing */
+
 h1 {
     margin-bottom: 6px;
-  }
-  
-  h2 {
+}
+.profile-pic {
+    width: 185px;
+    height: 200px;
+    display: block;
     margin-bottom: 5px;
   }
-  
-  h3 {
+h2 {
+    margin-bottom: 5px;
+}
+
+h3 {
     margin-bottom: 1px;
-  }
-  
-  /* Indent all content inside a section, except the <h2> */
-  section > :not(h2) {
+}
+
+section> :not(h2) {
     padding-left: 20px;
-  }
-  
-  /* Date line styling (used in experience + education) */
-  .dates {
+}
+
+#about p,
+#experience p:not(.dates) {
+    text-indent: 20px;
+}
+
+
+.dates {
     margin-top: 0;
     margin-left: 20px;
     margin-bottom: 6px;
     font-style: italic;
-  }
-  
-  /* Education section */
-  .edu-entry {
+}
+
+/* Education section */
+.edu-entry .dates {
+    margin-left: 20px;
+}
+
+.edu-entry h3 {
     margin-bottom: 3px;
-  }
-  
-  .edu-entry h3 {
-    margin-bottom: 3px;
-  }
-  
-  .edu-entry p {
+}
+
+.edu-entry p {
     margin: 0;
-  }
-  
-  .edu-entry .degree {
+}
+
+.edu-entry .degree {
     font-style: italic;
-  }
-  
-  .edu-entry ul {
+}
+
+.edu-entry ul {
     margin-top: 0;
     padding-left: 30px;
-  }
-  
-  .edu-entry .activities {
+}
+
+.edu-entry .activities {
     margin-top: 12px;
     margin-bottom: 10px;
-  }
-  
+}
